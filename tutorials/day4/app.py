@@ -7,7 +7,7 @@ def index():
     return Titled("Hey you", 
                 Body(
                     Div("Let's check out FT Tags from fastcore library",
-                        {"class": "uk-h1"})
+                        _class=["uk-h1"])
                 )
             )
 
